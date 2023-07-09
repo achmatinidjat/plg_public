@@ -13,7 +13,7 @@ for(var j = 0; j<b.length;j++){
 console.log(a.length, " : ", b.length)
 var maxDep = Number(arrPrices[0]);
 for(var k = 0; k<arrPrices.length;k++){
-    if(arrStatuses[k] == 'Confirmed' || arrStatuses[k] == 'Success'){
+    if(arrStatuses[k] == 'Confirmed' || arrStatuses[k] == 'Success' || arrStatuses[k] == 'Выполнено'){
         cnt+=Number(arrPrices[k])
 			if(maxDep < arrPrices[k]){
 				maxDep = Number(arrPrices[k])
