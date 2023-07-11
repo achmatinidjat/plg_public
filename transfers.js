@@ -68,7 +68,6 @@ console.log('Вы отправили: ', sumTo);
 console.log('Вы получили: ', sumFrom);
 console.log('Монет с промо: ', promo);
 console.log("Вы получили вместе с промо: ", promo + sumFrom)
-//console.log('CRYPTO: ', cryptoS)
     if(maxInfo){
         console.log('Вы отправили максимум: ', maxTo)
         console.log('Вы получили максимум: ', maxFrom)
