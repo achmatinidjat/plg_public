@@ -64,17 +64,17 @@ for(let i = 0; i<arrAmnts.length;i++){
 
 
 
-console.log('Вы отправили: ', sumTo);
-console.log('Вы получили: ', sumFrom);
-console.log('Монет с промо: ', promo);
-console.log("Вы получили вместе с промо: ", promo + sumFrom)
+console.log('Вы отправили монет: ', sumTo);
+console.log('Вы получили монет: ', sumFrom);
+console.log('Монет получено с промокодов: ', promo);
+console.log("Вы получили монет вместе с промо: ", promo + sumFrom)
     if(maxInfo){
-        console.log('Вы отправили максимум: ', maxTo)
-        console.log('Вы получили максимум: ', maxFrom)
+        console.log('Вы отправили максимум за 1 перевод: ', maxTo)
+        console.log('Вы получили максимум за 1д перевод: ', maxFrom)
     }
     if(tar){
-        console.log("Пользоваетлю с ID=",tId," Вы получили: ",tarF, "Монет")
-        console.log("Пользоваетлю с ID=",tId," Вы отправили: ",tarT, "Монет")
+        console.log("Пользователю с ID=",tId," Вы получили: ",tarF, "Монет")
+        console.log("Пользователю с ID=",tId," Вы отправили: ",tarT, "Монет")
     }
     if(allTrs)
-        console.log("Всего операций: ", arrAmnts.length)
+        console.log("Всего операций обмена: ", arrAmnts.length)
