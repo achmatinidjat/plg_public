@@ -70,7 +70,7 @@ console.log('Монет получено с промокодов: ', promo);
 console.log("Вы получили монет вместе с промо: ", promo + sumFrom)
     if(maxInfo){
         console.log('Вы отправили максимум за 1 перевод: ', maxTo)
-        console.log('Вы получили максимум за 1д перевод: ', maxFrom)
+        console.log('Вы получили максимум за 1 перевод: ', maxFrom)
     }
     if(tar){
         console.log("Пользователю с ID=",tId," Вы получили: ",tarF, "Монет")
