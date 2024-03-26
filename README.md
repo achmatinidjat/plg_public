@@ -3,10 +3,10 @@
 ## HELP SCRIPTS
 ### Авто-ставка для crash
 - необходимо вставить скрипт в консоль и заполнить поля 
-` var firstBet=10;  //Первая ставка // first bet
-  var secondBet=10; //Вторая ставка // second bet
-  var firstX=1.1;   //Первый Х      // first X
-  var secondX=1.2;  //Второй Х      // second X`
+- ` var firstBet=10;  //Первая ставка // first bet`
+- ` var secondBet=10; //Вторая ставка // second bet`
+- ` var firstX=1.1;   //Первый Х      // first X`
+- ` var secondX=1.2;  //Второй Х      // second X`
 - когда идет отсчет в crash до начала раунда, нажать enter
 ### Deposit/withdraw crypto и карты\киви и т.п.
 - Что бы использовать данный скрипт, необходимо перейти во вкладку **Пополнить** или **Вывести** (в зависимости от того где вы хотите подсчитать количество монет) и открыть пункт **CRYPTO** или **QIWI/WM/CARDS**
